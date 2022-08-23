@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "eurl_enrichment"
+version = "0.1.0"
+description = ""
+authors = ["Brandon Helms <brandon@golden.co>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.28.1"
+validators = "^0.20.0"
+bs4 = "^0.0.1"
+SQLAlchemy = "^1.4.39"
+psycopg2 = "^2.9.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
