@@ -1,0 +1,7 @@
+# Local Development Work
+*.sqlite
+*.db
+
+# Python
+*.pyc
+__pycache__
